@@ -6,7 +6,7 @@
     <title>Search</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body style="background-color: rgb(60, 60, 60);">
+<body style="background-color: rgb(34, 34, 36);">
     <div class="stylos">
         <nav id="navbar">
             <div></div>
@@ -17,16 +17,20 @@
         </nav>
     </div>
     <div class="img">
-        <img src="css/img/stažený_soubor-removebg-preview.png" alt="">
+        <img src="css/img/stažený_soubor-removebg-preview.png" width="280">
     </div>
     <div class="showcase">
         <div class="style">
             <div class="nevim">
-            <form action="https://google.com/search" name="f">
-                
-                <input type="text" name="q" placeholder="Hledejte na Googlu nebo zadejte adresu URL">
+            <form action="https://google.com/search">
+                    <div class="advanced">
+                        All these words:<input type="text" name="as_q" >
+                        <br><br>Exact word/phrase:<input type="text" name="as_epq" >
+                        <br><br>Any of these words:<input type="text" name="as_oq" >
+                        <br><br>None of these words:<input type="text" name="as_eq" >
+                    </div>    
+                        <div> <input class="advanced1" type="submit" value="advanced search"></div>
             </div>
-                
             </form>
         </div>
     </div>

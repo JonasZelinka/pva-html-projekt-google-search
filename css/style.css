@@ -1,41 +1,40 @@
 .style input[type=text] {
-    padding: 9px 20px;
+    padding: 15px 25px;
     border-radius: 100px;
-    font-weight: 300;
-    margin-top: 40px;
+    margin-top: 30px;
     width: 250%;
-    background-color: rgb(60, 60, 60);
-   
-}
-.stylos {
-padding-bottom: 2px;
+    background-color: rgb(34, 34, 36);
+    color: #fff;
+    border: 0.1px solid rgb(124, 123, 123);
+
 }
 .showcase {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    
+    border-radius: 100px;
+    color: #fff;
 }
 .nevim{
-    padding-right: 330px;
-    color: rgb(60, 60, 60);
-    background-color: rgb(60, 60, 60);
+    padding-right: 375px;
 }
 #navbar {
-    background-color: rgb(60, 60, 60);
+    background-color: rgb(34, 34, 36);
     color: rgb(155, 155, 155);
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
     justify-content: space-between; 
     color: #fff;
+    
 }
 #navbar ul{
     display: flex;
     list-style: none;
     align-items: center;
     margin: 10px;
+    
 }
 #navbar ul li a{
     padding: 0.75rem;
@@ -43,22 +42,18 @@ padding-bottom: 2px;
 .img {
     display: flex;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
     align-items: center;
     padding: 0 2rem;
-    padding-top: 3rem;
-    color: white;
+    padding-top: 5rem;
 }
-
 a {
     color: white;
     text-decoration: none;
 }
 #navbar2 {
     text-decoration: none;
-    background-color: rgb(60, 60, 60);
-    color: rgb(155, 155, 155);
+    background-color: rgb(34, 34, 36);
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
@@ -68,5 +63,70 @@ a {
     margin: 10px;
     padding: 2px;
     margin: 20px;
-    
+}
+.gNO89b {
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 4px;
+    outline: none;
+    border: none;
+}
+.gNO89b:hover {
+    background-color: #404040;
+    cursor: pointer;
+    box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
+    -webkit-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
+    -moz-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
+}
+.RNmpXc {
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 4px;
+    outline: none;
+    border: none;
+}
+.RNmpXc:hover {
+    background-color: #404040;
+    cursor: pointer;
+    box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
+    -webkit-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
+    -moz-box-shadow: -1px 1px 43px 0px rgba(0,0,0,0.58);
+}
+.advanced {
+    width: 250px;
+    padding-right: 40px;
+}
+.advanced1 {
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3px; 
+}
+.chleba {
+    background: rgb(22, 22, 22);
+    color: white;
+    padding: 1.5rem 0;
+    margin-top: 17.3rem;
+}
+.html {
+    margin: none;
+}
+.pismo{
+    color: lightblue;
+    font-size: 23px;
+    font-family: arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-bottom: 1%;
+
 }
