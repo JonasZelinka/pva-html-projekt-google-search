@@ -1,24 +1,26 @@
 .style input[type=text] {
     padding: 9px 20px;
     border-radius: 100px;
-    background-color: #fff;
     font-weight: 300;
-    margin-top: 200px;
+    margin-top: 40px;
     width: 250%;
+    background-color: rgb(60, 60, 60);
    
 }
 .stylos {
-
+padding-bottom: 2px;
 }
 .showcase {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    
 }
 .nevim{
     padding-right: 330px;
+    color: rgb(60, 60, 60);
+    background-color: rgb(60, 60, 60);
 }
 #navbar {
     background-color: rgb(60, 60, 60);
@@ -37,4 +39,34 @@
 }
 #navbar ul li a{
     padding: 0.75rem;
+}
+.img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    padding-top: 3rem;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+#navbar2 {
+    text-decoration: none;
+    background-color: rgb(60, 60, 60);
+    color: rgb(155, 155, 155);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    color: #fff;
+    list-style: none;
+    align-items: center;
+    margin: 10px;
+    padding: 2px;
+    margin: 20px;
+    
 }
