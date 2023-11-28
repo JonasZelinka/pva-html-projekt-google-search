@@ -1,8 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nevim {
+    width: 580px;
+}
+
 .style input[type=text] {
     padding: 15px 25px;
     border-radius: 100px;
-    margin-top: 30px;
-    width: 250%;
+    margin-top: 30px;   
+    width: 580px;
     background-color: rgb(34, 34, 36);
     color: #fff;
     border: 0.1px solid rgb(124, 123, 123);
@@ -16,9 +25,7 @@
     border-radius: 100px;
     color: #fff;
 }
-.nevim{
-    padding-right: 375px;
-}
+
 #navbar {
     background-color: rgb(34, 34, 36);
     color: rgb(155, 155, 155);
@@ -114,8 +121,7 @@ a {
 .chleba {
     background: rgb(22, 22, 22);
     color: white;
-    padding: 0,75rem 0;
-    margin-top: 17.3rem;
+    margin-top: 18.5rem;
 }
 .html {
     margin: none;
@@ -129,4 +135,21 @@ a {
     padding-left: 15%;
     padding-bottom: 1%;
 
+}
+.chlebaren {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+    .nevim {
+        width: auto;
+    }
+
+    .style input[type=text] {
+ 
+        width: auto;
+  
+    
+    }
 }
